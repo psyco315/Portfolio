@@ -1,4 +1,4 @@
-import { motion } from "motion/react"
+import { motion, useInView } from "motion/react"
 import { useState, useRef, useEffect } from "react"
 import portPhoto from '../assets/portfolioPhoto2.png'
 import SocialBox from "./SocialBox"
@@ -21,7 +21,7 @@ const LandingPage = () => {
 
 
     return (
-        <div className="relative overflow-hidden h-screen w-screen hover:cursor-default">
+        <div className="snap-start relative overflow-hidden h-screen w-screen hover:cursor-default">
             <motion.div
                 animate={{
                     opacity: 100,

@@ -3,7 +3,6 @@ import ProjectModal from './ProjectModal';
 import { motion, useInView } from 'framer-motion';
 
 const ProjectCard = ({
-  key,
   index,
   project = {},
 }) => {

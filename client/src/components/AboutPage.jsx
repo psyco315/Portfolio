@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Canvas3D from './Canvas3D'
 
 const AboutPage = () => {
+  useEffect(() => {
+    console.log("Hellow")
+  
+  }, [])
+  
+
   return (
     <div className='snap-start relative overflow-hidden h-screen w-screen hover:cursor-default'>
-      <Canvas3D />
+      {typeof window !== 'undefined' && <Canvas3D />}
     </div>
   )
 }

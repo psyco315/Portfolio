@@ -85,7 +85,7 @@ const Canvas3D = () => {
         console.log('curr state after:', currState)
     }
 
-    return (
+    return (        
         <div style={{ position: 'relative', width: '100vw', height: '100vh' }}>
             <Canvas camera={{ position: [0, 0, 1], fov: 50 }}
                 style={{ background: '#000000' }}>

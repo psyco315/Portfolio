@@ -5,7 +5,7 @@ import { useGLTF } from '@react-three/drei';
 useGLTF.preload('/models/mainModel.glb');
 useGLTF.preload('/models/stars.glb');
 
-const MainModel = ({ tableRef, delay = 1000 }) => { // delay in ms
+const MainModel = ({ tableRef, delay = 750 }) => { // delay in ms
     const [loadModel, setLoadModel] = useState(false);
     const { scene } = useGLTF('/models/mainModel.glb', { skip: !loadModel });
 

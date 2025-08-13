@@ -11,8 +11,8 @@ function App() {
     <>
       <div className='h-screen overflow-y-auto snap-y snap-mandatory'>
         <LandingPage />
-        <AboutPage />
         <ProjectPage />
+        <AboutPage />
       </div>
     </>
   )

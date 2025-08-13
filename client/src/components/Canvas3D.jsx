@@ -112,7 +112,7 @@ const Canvas3D = () => {
             <AnimatePresence>
                 {currState !== 'back' && (
                     <motion.button
-                        className='text-white absolute top-[30px] left-[30px] z-10 w-20 hover:cursor-pointer hover:scale-105 transition-transform duration-100 ease-in-out'
+                        className='text-white absolute top-[30px] left-[30px] z-10 w-30 hover:cursor-pointer hover:scale-105 transition-transform duration-100 ease-in-out'
                         onClick={() => {
                             setCamTarget([0, 0, 1, 0, 0, 0]);
                             handleBack()

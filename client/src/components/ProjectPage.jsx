@@ -1,7 +1,6 @@
 import { useEffect, useRef } from 'react'
 import ProjectCard from './ProjectCard.jsx'
 import { motion, useInView } from 'motion/react'
-// import '../scrollbar.css'
 
 import TaskImg from '../assets/TaskProject/TaskManager.png'
 import ExpImg from '../assets/ExpProject/ExpTracker.png'
@@ -31,7 +30,7 @@ const projects = [
     {
         title: 'Portfolio Website',
         description: 'My portfolio, showcasing my experience and projects',
-        stack: ["ReactJS", "TailwindCSS", "Framer Motion"],
+        stack: ["ReactJS", "TailwindCSS", 'React 3 Fiber', 'Three.JS', "Framer Motion", 'Blender'],
         thumbnail: portImage,
         link: 'https://portfolio-wine-one-87.vercel.app/',
         imageList: [],

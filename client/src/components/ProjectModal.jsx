@@ -27,7 +27,7 @@ export default function ProjectModal({ isOpen, onClose, project }) {
                             </div>
 
                             {/* Image slider */}
-                            <div className="flex gap-4 overflow-x-auto items-start">
+                            <div className="flex gap-4 overflow-x-scroll items-start scrollbar scrollbar-thumb-purple-700 scrollbar-track-[#0D0E17]">
                                 {project.imageList.map((img, i) => (
                                     <img
                                         src={img}

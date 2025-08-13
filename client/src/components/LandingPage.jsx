@@ -126,17 +126,17 @@ const LandingPage = () => {
             </motion.div>
 
             <motion.div
-                animate={{
-                    opacity: 100,
-                    transition: {
-                        duration: 1,
-                        delay: .5
-                    }
-                }}
+                // animate={{
+                //     opacity: 100,
+                //     transition: {
+                //         duration: 1,
+                //         delay: .5
+                //     }
+                // }}
 
-                initial={{
-                    opacity: 0
-                }}
+                // initial={{
+                //     opacity: 0
+                // }}
                 className="absolute top-[350px] left-[60px]"
             >
                 <SocialBox />

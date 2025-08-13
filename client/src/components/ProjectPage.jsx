@@ -57,7 +57,7 @@ const projects = [
         stack: ["Godot Engine"],
         thumbnail: Game2Img,
         link: '',
-        imageList: [ gameImg1, gameImg2, gameImg3, gameImg4 ],
+        imageList: [ game2Img1 ],
     },
     {
         title: 'Retro Game',
@@ -65,7 +65,7 @@ const projects = [
         stack: ["HTML", "CSS", "VanillaJS"],
         thumbnail: GameImg,
         link: '',
-        imageList: [ game2Img1 ],
+        imageList: [ gameImg1, gameImg2, gameImg3, gameImg4 ],
     },
 ]
 

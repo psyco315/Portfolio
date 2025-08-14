@@ -17,7 +17,7 @@ const SocialBox = () => {
                     opacity: 100,
                     transition: {
                         duration: .5,
-                        delay: .25
+                        delay: .5
                     }
                 }}
 
@@ -38,7 +38,7 @@ const SocialBox = () => {
                     opacity: 100,
                     transition: {
                         duration: .5,
-                        delay: .5
+                        delay: .75
                     }
                 }}
 
@@ -59,7 +59,7 @@ const SocialBox = () => {
                     opacity: 100,
                     transition: {
                         duration: .5,
-                        delay: .75
+                        delay: 1
                     }
                 }}
 
@@ -80,7 +80,7 @@ const SocialBox = () => {
                     opacity: 100,
                     transition: {
                         duration: .5,
-                        delay: 1
+                        delay: 1.25
                     }
                 }}
 

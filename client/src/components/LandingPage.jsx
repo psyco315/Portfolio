@@ -6,8 +6,8 @@ import SocialBox from "./SocialBox"
 const LandingPage = () => {
     const [shouldPause, setShouldPause] = useState(false)
     const src = '/namegif.mp4'
-    const width = 450
-    const height = 450
+    const width = 400
+    const height = 240
     const videoRef = useRef()
 
     useEffect(() => {
@@ -59,7 +59,7 @@ const LandingPage = () => {
 
             <motion.div
                 animate={{
-                    opacity: 50,
+                    opacity: .5,
                     transition: {
                         duration: 2,
                         delay: 1
@@ -69,7 +69,7 @@ const LandingPage = () => {
                 initial={{
                     opacity: 0
                 }}
-                className="absolute top-[-100px] left-[50px]"
+                className="absolute top-14 left-12"
             >
                 <video
                     ref={videoRef}
@@ -79,10 +79,9 @@ const LandingPage = () => {
                     loop
                     muted
                     playsInline
-                    className="opacity-60"
+                    className=" object-cover"
                 >
                     <source src={src} type="video/mp4" />
-                    Your browser doesn't support video playback.
                 </video>
             </motion.div>
 

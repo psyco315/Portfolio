@@ -9,6 +9,7 @@ import Game2Img from '../assets/Game2Project/Game2.png'
 import fadeBg from '../assets/fadeBg.png'
 import bgImage from '../assets/bgImage.png'
 import portImage from '../assets/PortProject/Portfolio.png'
+import bookStopImg from '../assets/BookStop/bookStop.png'
 
 import taskImg1 from '../assets/TaskProject/1.png'
 import taskImg2 from '../assets/TaskProject/2.png'
@@ -27,6 +28,14 @@ import expImg3 from '../assets/ExpProject/3.png'
 import game2Img1 from '../assets/Game2Project/1.png'
 
 const projects = [
+    {
+        title: 'BookStop',
+        description: 'A book-log website that can be used to track a vast library of books',
+        stack: ["ReactJS", "ExpressJS", "NodeJS", "MongoDB", "TailwindCSS", "JWT" , "Framer Motion"],
+        thumbnail: bookStopImg,
+        link: 'https://booklog-client.vercel.app/',
+        imageList: [],
+    },
     {
         title: 'Portfolio Website',
         description: 'My portfolio, showcasing my experience and projects',

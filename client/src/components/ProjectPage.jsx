@@ -37,7 +37,7 @@ const projects = [
     {
         title: 'BookStop',
         description: 'A book-log website that can be used to track a vast library of books',
-        stack: ["ReactJS", "ExpressJS", "NodeJS", "MongoDB", "TailwindCSS", "JWT" , "Framer Motion"],
+        stack: ["ReactJS", "ExpressJS", "NodeJS", "MongoDB", "TailwindCSS", "JWT" , "Framer Motion", "Google Books API", "Open-Library API"],
         thumbnail: bookStopImg,
         link: 'https://booklog-client.vercel.app/',
         imageList: [bookStopImg1, bookStopImg2, bookStopImg3, bookStopImg4, bookStopImg5],

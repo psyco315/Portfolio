@@ -25,6 +25,12 @@ import expImg1 from '../assets/ExpProject/1.png'
 import expImg2 from '../assets/ExpProject/2.png'
 import expImg3 from '../assets/ExpProject/3.png'
 
+import bookStopImg1 from '../assets/BookStop/1.png'
+import bookStopImg2 from '../assets/BookStop/2.png'
+import bookStopImg3 from '../assets/BookStop/3.png'
+import bookStopImg4 from '../assets/BookStop/4.png'
+import bookStopImg5 from '../assets/BookStop/5.png'
+
 import game2Img1 from '../assets/Game2Project/1.png'
 
 const projects = [
@@ -34,7 +40,7 @@ const projects = [
         stack: ["ReactJS", "ExpressJS", "NodeJS", "MongoDB", "TailwindCSS", "JWT" , "Framer Motion"],
         thumbnail: bookStopImg,
         link: 'https://booklog-client.vercel.app/',
-        imageList: [],
+        imageList: [bookStopImg1, bookStopImg2, bookStopImg3, bookStopImg4, bookStopImg5],
     },
     {
         title: 'Portfolio Website',

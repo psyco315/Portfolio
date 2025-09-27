@@ -50,7 +50,7 @@ const SocialBox = () => {
             </motion.a>
 
             <motion.a
-                href="https://drive.google.com/file/d/1EPKTVHkSwz2_DR2MYjoZXSIkpY-zQsfC/view?usp=sharing"
+                href="https://drive.google.com/file/d/12kFAuyB2T_HHdSeekTz-dCEkmTAQcmBg/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform duration-100 hover:scale-105"

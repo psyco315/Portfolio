@@ -10,6 +10,7 @@ import fadeBg from '../assets/fadeBg.png'
 import bgImage from '../assets/bgImage.png'
 import portImage from '../assets/PortProject/Portfolio.png'
 import bookStopImg from '../assets/BookStop/bookStop.png'
+import docSummImg from '../assets/OptDocSumm/docSumm.png'
 
 import taskImg1 from '../assets/TaskProject/1.png'
 import taskImg2 from '../assets/TaskProject/2.png'
@@ -31,6 +32,9 @@ import bookStopImg3 from '../assets/BookStop/3.png'
 import bookStopImg4 from '../assets/BookStop/4.png'
 import bookStopImg5 from '../assets/BookStop/5.png'
 
+import OptDocSummImg1 from '../assets/OptDocSumm/1.png'
+import OptDocSummImg2 from '../assets/OptDocSumm/2.png'
+
 import game2Img1 from '../assets/Game2Project/1.png'
 
 const projects = [
@@ -41,6 +45,14 @@ const projects = [
         thumbnail: bookStopImg,
         link: 'https://booklog-client.vercel.app/',
         imageList: [bookStopImg1, bookStopImg2, bookStopImg3, bookStopImg4, bookStopImg5],
+    },
+    {
+        title: 'Optical Document Summary',
+        description: 'An OCR application that extracts text from PDFs and images Tesseract.js and summarizes it using OpenAI API',
+        stack: ["ReactJS", "ExpressJS", "NodeJS", "TailwindCSS", "Tessearct.js", "OpenAI API", "Framer Motion"],
+        thumbnail: docSummImg,
+        link: 'https://optical-document-summary-client.vercel.app/',
+        imageList: [OptDocSummImg1, OptDocSummImg2],
     },
     {
         title: 'Portfolio Website',
